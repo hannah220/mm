@@ -9,7 +9,7 @@ int main()
 
   std::random_device rd;  //Will be used to obtain a seed for the random number engine
   std::mt19937 gen(rd()); //Standard mersenne_twister_engine seeded with rd()
-  std::uniform_int_distribution<> distrib1(2, 10);
+  std::uniform_int_distribution<> distrib1(2, 100000);
   std::uniform_real_distribution<> distrib2(0, 100);
 
   int n = distrib1(gen);
