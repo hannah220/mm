@@ -18,4 +18,4 @@
     * DAC has occupied about 100 times more memory than pure SIMD approach. 
     * This could be because “dividing” matrix to four matrices needs lot of memory copy and thus also slowing down the computation compared to pure SIMD approach. 
     
-![Alt text](https://github.com/hannah220/mm/mm1.jpg?raw=true)
+![To image](mm1.jpg?raw=true)
